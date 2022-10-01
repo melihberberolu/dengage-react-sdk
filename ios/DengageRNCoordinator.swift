@@ -25,7 +25,7 @@ public class DengageRNCoordinator: NSObject {
         } else {
             Dengage.initWithLaunchOptions(withLaunchOptions: nil)
         }
-        Dengage.promptForPushNotifications()
+        // Dengage.promptForPushNotifications()
     }
     
     @objc(registerForPushToken:)
